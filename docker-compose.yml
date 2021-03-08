@@ -9,6 +9,3 @@ services:
       - ./frontend:/frontend
     ports:
       - 3000:3000      
-volumes:
-  mysql-data:
-    driver: local
